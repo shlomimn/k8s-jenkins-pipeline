@@ -24,6 +24,7 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
 
 
   * Copy/Create /.kube/config to Jenkins allowing kubectl to run without sudo, 
+  
     from Jenkins run:
     1. Make .kube directory in Jenkins
     
