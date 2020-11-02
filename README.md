@@ -3,7 +3,7 @@
 # General
 The Jenkinsfile is a groovy script that Jenkin CI/CD can pull and run.
 
-This Jenkinsfile will apply K8s in stages (stage per K8s .yaml file).
+This Jenkinsfile will apply K8s in stages (stage per .yaml file).
 
 # Jenkins Pre-Requests
   * Install kubectl
