@@ -21,7 +21,7 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
     4. Test to ensure the version you installed is up-to-date:
     
        **kubectl version --client**  
-
+<br/>
 
   * Copy/Create /.kube/config to Jenkins allowing kubectl to run without sudo, 
   
@@ -42,6 +42,9 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
     3. Change $HOME/.kube/config to jenkins ownership
     
        **sudo chown $(id -u):$(id -g) $HOME/.kube/config**  
+
+<br/>
+<br/>
 
 ## Jenkins 
   * Pipeline creation
