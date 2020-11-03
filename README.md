@@ -46,7 +46,7 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
        **sudo chown $(id -u):$(id -g) $HOME/.kube/config**  
 
 <br/>
-<br/>
+
 
 ## Jenkins 
   * Pipeline creation
