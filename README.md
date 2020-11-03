@@ -1,11 +1,11 @@
 # k8s-jenkins-pipeline
 
-# General
+## General
 The Jenkinsfile is a groovy script that Jenkin CI/CD can pull and run.
 
 This Jenkinsfile will apply K8s in stages (stage per .yaml file).
 
-# Jenkins Pre-Requests
+## Jenkins Pre-Requests
   * Install kubectl
     1. Download the latest release with the command:
        **curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"**
@@ -43,7 +43,7 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
     
        **sudo chown $(id -u):$(id -g) $HOME/.kube/config**
 
-# Jenkins 
+## Jenkins 
   * Pipeline creation
     1. Create a new item in Jenkins of type *Pipeline* and give it a name.
     
