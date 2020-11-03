@@ -54,4 +54,6 @@ This Jenkinsfile will apply K8s in stages (stage per .yaml file).
        
     3. Save & Build Now
 
-       ![](Screenshot-Jenkins.png)
+       ![](images/Screenshot from Jenkins.png)
+       
+       ![](images/Screenshot from blue-ocean.png)
